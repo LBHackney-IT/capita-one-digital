@@ -1,0 +1,11 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns3:CitizenPortalLogInStatusResponse xmlns:ns3="http://www.capita-software.co.uk/citizenportal/schema/citizenportalloginstatusws" xmlns:ns2="http://www.capita-software.co.uk/schema/citizencommon">
+      <ns3:result>
+        <ns2:resultCode>INVALID</ns2:resultCode>
+        <ns2:resultMessage>No record of user being logged in</ns2:resultMessage>
+      </ns3:result>
+    </ns3:CitizenPortalLogInStatusResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns3:CitizenPortalRegisterResponse xmlns:ns3="http://www.capita-software.co.uk/citizenportal/schema/citizenportalregisterws" xmlns:ns2="http://www.capita-software.co.uk/schema/citizencommon">
+      <ns3:password>password</ns3:password>
+      <ns3:ssid>1</ns3:ssid>
+      <ns3:result>
+        <ns2:resultCode>OK</ns2:resultCode>
+        <ns2:resultMessage>The profile has been created successfully.</ns2:resultMessage>
+      </ns3:result>
+    </ns3:CitizenPortalRegisterResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

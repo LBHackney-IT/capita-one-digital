@@ -1,0 +1,11 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns3:CitizenPortalLogOutResponse xmlns:ns3="http://www.capita-software.co.uk/citizenportal/schema/citizenportallogoutws" xmlns:ns2="http://www.capita-software.co.uk/schema/citizencommon">
+      <ns3:result>
+        <ns2:resultCode>OK</ns2:resultCode>
+        <ns2:resultMessage>Citizen logged out.</ns2:resultMessage>
+      </ns3:result>
+    </ns3:CitizenPortalLogOutResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

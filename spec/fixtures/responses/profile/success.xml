@@ -1,0 +1,35 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns3:CitizenPortalProfileResponse xmlns:ns3="http://www.capita-software.co.uk/citizenportal/schema/citizenportalprofilews" xmlns:ns2="http://www.capita-software.co.uk/schema/citizencommon">
+      <ns3:citizenPortalProfileDetails>
+        <ns3:username>bob@example.com</ns3:username>
+        <ns3:name>
+          <ns2:title />
+          <ns2:forename>Bob</ns2:forename>
+          <ns2:middlename />
+          <ns2:surname>Smith</ns2:surname>
+        </ns3:name>
+        <ns3:companyName />
+        <ns3:dateOfBirth>1968-10-31</ns3:dateOfBirth>
+        <ns3:email>bob@example.com</ns3:email>
+        <ns3:address>
+          <ns2:address1>1 Nowhere Road</ns2:address1>
+          <ns2:address2 />
+          <ns2:address3 />
+          <ns2:address4>Hackney</ns2:address4>
+          <ns2:address5>London</ns2:address5>
+          <ns2:postcode>E1 6PP</ns2:postcode>
+          <ns2:uprn />
+        </ns3:address>
+        <ns3:dateCreated>2018-07-16T12:41:52+0100</ns3:dateCreated>
+        <ns3:dateUpdated>2018-12-09T17:21:12+0000</ns3:dateUpdated>
+      </ns3:citizenPortalProfileDetails>
+      <ns3:ssid>901</ns3:ssid>
+      <ns3:result>
+        <ns2:resultCode>OK</ns2:resultCode>
+        <ns2:resultMessage>Successful query</ns2:resultMessage>
+      </ns3:result>
+    </ns3:CitizenPortalProfileResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,11 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns3:CitizenPortalProfileResponse xmlns:ns3="http://www.capita-software.co.uk/citizenportal/schema/citizenportalprofilews" xmlns:ns2="http://www.capita-software.co.uk/schema/citizencommon">
+      <ns3:result>
+        <ns2:resultCode>ERROR</ns2:resultCode>
+        <ns2:resultMessage>Valid response could not be generated: DATA INTEGRITY ERROR. A profile could not be retrieved for the citizen currently associated with username bob@example.com</ns2:resultMessage>
+      </ns3:result>
+    </ns3:CitizenPortalProfileResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

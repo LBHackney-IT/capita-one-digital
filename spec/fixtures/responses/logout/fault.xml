@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <SOAP-ENV:Fault>
+      <faultcode>SOAP-ENV:Client</faultcode>
+      <faultstring xml:lang="en">Validation error</faultstring>
+      <detail>
+        <spring-ws:ValidationError xmlns:spring-ws="http://springframework.org/spring-ws">cvc-pattern-valid: Value 'bob@example.com' is not facet-valid with respect to pattern '([A-Za-z0-9]+)' for type 'token3rdParty'.</spring-ws:ValidationError>
+        <spring-ws:ValidationError xmlns:spring-ws="http://springframework.org/spring-ws">cvc-type.3.1.3: The value 'bob@example.com' of element 'tns:token' is not valid.</spring-ws:ValidationError>
+      </detail>
+    </SOAP-ENV:Fault>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
