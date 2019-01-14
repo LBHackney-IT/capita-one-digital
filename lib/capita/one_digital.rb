@@ -18,10 +18,6 @@ module Capita
         Operations::EditProfile[username, profile]
       end
 
-      def history_service(filter)
-        Operations::HistoryService[filter]
-      end
-
       def login(username)
         Operations::Login[username]
       end
