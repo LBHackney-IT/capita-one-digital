@@ -81,6 +81,8 @@ module Capita
           end
 
           def namespace_keys(hash)
+            return hash if hash.is_a?(String)
+
             hash.each_with_object({}) do |(key, value), namespaced_hash|
               tag = Gyoku.xml_tag(key)
               namespace = NAMESPACED_KEYS.include?(key) ? "ins0" : "tns"
