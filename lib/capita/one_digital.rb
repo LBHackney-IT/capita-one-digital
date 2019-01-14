@@ -38,10 +38,6 @@ module Capita
         Operations::Register[username, profile]
       end
 
-      def session(username)
-        Session.new(username, self)
-      end
-
       def exists?(username)
         Operations::Profile[username] ? true : false
       end
